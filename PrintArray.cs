@@ -24,9 +24,9 @@ namespace GenericDemo.cs
             }
         }
 
-        public static void ToPrint(char[] charArray)
+        public static void ToPrint(string[] stringArray)
         {
-            foreach (char element in charArray)
+            foreach (string element in stringArray)
             {
                 Console.WriteLine(" " + element + " ");
             }

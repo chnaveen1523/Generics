@@ -20,8 +20,9 @@ namespace GenericDemo.cs
             //}
             //PrintArray.ToPrint(intArray);
 
-            int[] intArray = { 20, 25, 10, 5, 4 };
-            PrintArray.ToPrint(intArray);
+            string[] stringArray = { "Apple", "Peach", "Banana" };
+            PrintArray.ToPrint(stringArray);
+            Console.WriteLine("The maximum value is:" + MaxNumber.FindMax("Apple", "Peach", "Banana"));
             Console.ReadLine();
         }
     }
