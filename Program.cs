@@ -25,3 +25,4 @@ namespace GenericDemo.cs
             Console.ReadLine();
         }
     }
+}
